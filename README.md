@@ -44,6 +44,16 @@ To simulate:
 ## Vivado Project
 This project was developed using Xilinx Vivado. The Verilog modules can be integrated into a Vivado project for further synthesis, implementation, and verification.
 
+## Schematic
+The MAC module synthesized schematic consists of:
+- Total cells: 222
+- Total nets: 1001
+- Total I/O ports: 130
+
+![Synthesized Schematic](https://github.com/Nilesh002/Multiplication-and-Accumulation-Unit-MAC-/assets/105161049/1107b4c6-aa84-4475-a11a-436463a0e34c)
+
+
+
 ## Contribution
 Contributions to this project are welcome! To contribute:
 1. Fork the repository.
