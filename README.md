@@ -24,7 +24,7 @@ To use the MAC module in your Verilog design:
 3. Connect the output of the `mac32` module to the desired destination in your design.
 
 Example instantiation:
-```verilog
+\```verilog
 mac32 my_mac_inst (
     .a(a_input),
     .b(b_input),
@@ -32,3 +32,41 @@ mac32 my_mac_inst (
     .rst(rst),
     .p(mac_output)
 );
+\```
+
+## Simulation
+Simulation of the Verilog modules can be performed using a Verilog simulator. A testbench (`mac32_tb`) is provided to verify the functionality of the MAC module.
+
+To simulate:
+1. Compile the Verilog source files along with the testbench.
+2. Run the simulation using your preferred Verilog simulator.
+
+## Repository Structure
+MAC_Verilog/
+│
+├── README.md               # Description and usage instructions
+│
+├── code/                   # Verilog source files
+│   ├── mul16.v             # Module for 16-bit multiplication
+│   ├── mul8.v              # Module for 8-bit multiplication
+│   ├── ...                 # Other Verilog modules
+│
+├── testbench/              # Testbench code
+│   ├── mac32_tb.v          # Testbench for MAC module
+│
+└── documentation/          # Additional documentation
+
+## Vivado Project
+This project was developed using Xilinx Vivado. The Verilog modules can be integrated into a Vivado project for further synthesis, implementation, and verification.
+
+## Contribution
+Contributions to this project are welcome! To contribute:
+1. Fork the repository.
+2. Make your changes.
+3. Submit a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Issues
+Report any issues or feature requests in the [issue tracker](https://github.com/your_username/your_repository/issues).
