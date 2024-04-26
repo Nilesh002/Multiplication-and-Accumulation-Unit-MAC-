@@ -41,22 +41,6 @@ To simulate:
 1. Compile the Verilog source files along with the testbench.
 2. Run the simulation using your preferred Verilog simulator.
 
-## Repository Structure
-MAC_Verilog/
-│
-├── README.md               # Description and usage instructions
-│
-├── code/                   # Verilog source files
-│   ├── mul16.v             # Module for 16-bit multiplication
-│   ├── mul8.v              # Module for 8-bit multiplication
-│   ├── ...                 # Other Verilog modules
-│
-├── testbench/              # Testbench code
-│   ├── mac32_tb.v          # Testbench for MAC module
-│
-└── documentation/          # Additional documentation
-
-
 ## Vivado Project
 This project was developed using Xilinx Vivado. The Verilog modules can be integrated into a Vivado project for further synthesis, implementation, and verification.
 
