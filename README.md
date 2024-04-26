@@ -56,6 +56,7 @@ MAC_Verilog/
 │
 └── documentation/          # Additional documentation
 
+
 ## Vivado Project
 This project was developed using Xilinx Vivado. The Verilog modules can be integrated into a Vivado project for further synthesis, implementation, and verification.
 
