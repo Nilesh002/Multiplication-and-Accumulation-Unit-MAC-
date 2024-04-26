@@ -31,6 +31,7 @@ mac32 my_mac_inst (
     .clk(clk),
     .rst(rst),
     .p(product)
+    .accumulator(accm)
 );
 ```
 
@@ -46,11 +47,12 @@ To simulate:
 
 ## Schematic
 The MAC module synthesized schematic consists of:
-- Total cells: 222
-- Total nets: 1001
-- Total I/O ports: 130
+- Total cells: 372
+- Total nets: 1228
+- Total I/O ports: 194
 
-![Synthesized Schematic](https://github.com/Nilesh002/Multiplication-and-Accumulation-Unit-MAC-/assets/105161049/1107b4c6-aa84-4475-a11a-436463a0e34c)
+![Synthesized Schematic](https://github.com/Nilesh002/Multiplication-and-Accumulation-Unit-MAC-/assets/105161049/e55d7cd0-f577-4afd-877b-ce62c95a801f)
+
 
 ## Vivado Project
 This project was developed using Xilinx Vivado. The Verilog modules can be integrated into a Vivado project for further synthesis, implementation, and verification.
