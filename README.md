@@ -41,8 +41,8 @@ To simulate:
 1. Compile the Verilog source files along with the testbench.
 2. Run the simulation using your preferred Verilog simulator.
 
-## Vivado Project
-This project was developed using Xilinx Vivado. The Verilog modules can be integrated into a Vivado project for further synthesis, implementation, and verification.
+### Simulation results
+![Simulation Waveform](https://github.com/Nilesh002/Multiplication-and-Accumulation-Unit-MAC-/assets/105161049/9dc23196-3f59-425c-b66c-5f09dba5ddb4)
 
 ## Schematic
 The MAC module synthesized schematic consists of:
@@ -52,7 +52,8 @@ The MAC module synthesized schematic consists of:
 
 ![Synthesized Schematic](https://github.com/Nilesh002/Multiplication-and-Accumulation-Unit-MAC-/assets/105161049/1107b4c6-aa84-4475-a11a-436463a0e34c)
 
-
+## Vivado Project
+This project was developed using Xilinx Vivado. The Verilog modules can be integrated into a Vivado project for further synthesis, implementation, and verification.
 
 ## Contribution
 Contributions to this project are welcome! To contribute:
