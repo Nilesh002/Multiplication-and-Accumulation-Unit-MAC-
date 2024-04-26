@@ -2,10 +2,9 @@
 module mac32(
     input [31:0] a, b,
     input clk, rst,
-    output reg [63:0] p
+    output reg [63:0] p,
+    output reg [63:0] accumulator
 );
-
-reg [63:0] accumulator;
 
 wire [31:0] q1, q2, q3, q4;
 wire [31:0] w1;
