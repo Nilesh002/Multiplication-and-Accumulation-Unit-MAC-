@@ -30,7 +30,7 @@ mac32 my_mac_inst (
     .b(b_input),
     .clk(clk),
     .rst(rst),
-    .p(mac_output)
+    .p(product)
 );
 ```
 
