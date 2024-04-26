@@ -24,7 +24,7 @@ To use the MAC module in your Verilog design:
 3. Connect the output of the `mac32` module to the desired destination in your design.
 
 Example instantiation:
-\```verilog
+```verilog
 mac32 my_mac_inst (
     .a(a_input),
     .b(b_input),
@@ -32,7 +32,7 @@ mac32 my_mac_inst (
     .rst(rst),
     .p(mac_output)
 );
-\```
+```
 
 ## Simulation
 Simulation of the Verilog modules can be performed using a Verilog simulator. A testbench (`mac32_tb`) is provided to verify the functionality of the MAC module.
