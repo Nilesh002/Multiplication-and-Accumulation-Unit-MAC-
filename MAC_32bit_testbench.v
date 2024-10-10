@@ -1,12 +1,12 @@
 
 module mac32_tb;
 
-  // Signals
+
   reg [31:0] a, b;
   reg clk, rst;
   wire [63:0] p;
 
-  // Instantiate MAC unit
+
   mac32 dut(
     .a(a),
     .b(b),
